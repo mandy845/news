@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-left: 200px;
+  /* background-image: url('.//news.png'); */
 }
 
 .App-logo {
@@ -35,4 +37,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App h1{
+  text-transform: uppercase;
+    color: white;
+    font-size: 2.5em;
+    display: flex;
+    -webkit-text-stroke: 3px black;
+    margin-left: 177px;
+}
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(1, 1, 59);
+}
+
+.search {
+  width: 30%;
+}
+
+ul li {
+  font-size: 20px;
 }
